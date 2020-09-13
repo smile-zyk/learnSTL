@@ -30,17 +30,17 @@
 - 插入任何元素，都按相应的排序规则来确定其位置
 - 在查找时具有非常好的性能
 - 通常以平衡二叉树方式实现，插入和检索的时间都是O(log(N))
-1. set/multiset 头文件<set>
+1. set/multiset 头文件<set>  
 set 即集合。set中不允许相同元素，multiset中允许存在相同的元素。
-2. map/multimap 头文件<map>
+2. map/multimap 头文件<map>  
 map与set的不同在于map中存放的元素有且仅有两个成员变量，一个名为first，另一个名为second，map根据first值对元素进行从小到大排序，并可快速地根据first来检索元素。
 map同multimap的不同在于是否允许相同first值的元素。
 
 ## 容器适配器
-1. stack 头文件<stack>
+1. stack 头文件<stack>  
 栈。是项的有限序列，并满足序列中被删除、检索和修改的项只能是最近插入序列的项(栈顶的项)。后进后出。  
 ![QQ截图20200913142950.png](https://i.loli.net/2020/09/13/DQJa4d6bpFCYuSX.png)
-2. queue 头文件<queue>
+2. queue 头文件<queue>  
 队列。插入只可以在尾部进行，删除、检索和修改只允许从头不进行。先进先出。  
 ![QQ截图20200913143205.png](https://i.loli.net/2020/09/13/Ly6hiP8BxbnZdjC.png)
 3. priority_queue 头文件<queue>
